@@ -5,6 +5,9 @@ import Header from './components/Header';
 import Experience from './components/Experience';
 import DarkModeToggle from './components/DarkModeToggle';
 import Footer from './components/Footer';
+import Certs from './components/Certs';
+import Education from './components/Education';
+import DinoGame from './components/DinoGame';
 
 function App() {
   return (
@@ -13,7 +16,11 @@ function App() {
       <Header />
       <About />
       <Experience />
-      <Footer />
+      <Education />
+      <Certs />
+      <DinoGame />
+      <Footer /> 
+      
     </div>
   );
 }
